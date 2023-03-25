@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(170, 245, 204);
+         }
+
+         h1{
+            color: rgb(0, 0, 0);
+         }
+
+        table{
+            width: 500px;
+            border-collapse:collapse ;
+            position: relative;
+        }
+
+        td, th{
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray ;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgreen;
+            
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: rgb(255, 255, 255);
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        caption{
+            background-color: rgb(128, 128, 128);
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            border: 0.2px;
+            color: white;
+        }
+
+        
+
+     </style>
+
+</head>
+<body>
+ 
+    <h1>Uso de tabelas grandes</h1>
+    
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+
+        CAPTION - TITULO DA TABELA
+
+        TABLE 
+            THEAD
+                tr, td, th
+            TBODY
+                tr, td, th
+            TFOOT
+                tr, td, th
+     -->
+
+     <table>
+        <caption>População</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">200.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">100.000.000</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>BA</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            
+
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total da Habitantes</th>
+                <td class="num"> <strong>23.000.00</strong></td>
+            </tr>
+
+            <!-- TD - SAO DADOS DE UMA TABELA / TH - SAO TITULOS / TR DEFINE LINHA EM UMA TABELA -->
+
+        </tfoot>
+     </table>
+
+     
+
+</body>
+</html>
