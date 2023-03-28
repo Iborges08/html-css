@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 13.3</title>
+
+    <style>
+         
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center; 
+            
+        }
+
+        caption{
+            font-size: 3em;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        th,td,tr{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        
+
+      
+        .Mediae{
+            text-align: left;
+            background-color: rgb(164, 189, 223);
+            
+        }
+
+        .Mediah{
+            text-align: left;
+            background-color: rgb(164, 189, 223);
+            
+            
+        }
+        
+       
+
+        .cabecalho{
+            background-color: rgb(164, 189, 223);
+        }
+        
+        tbody{
+            background-color: rgba(59, 59, 68, 0.541);
+            color: rgb(0, 0, 0);
+        }
+
+        
+    </style>
+
+</head>
+<body>
+   
+    
+        <table align="center">
+        
+            <caption>Matérias</caption>
+
+        <thead>
+            <th scope="col" rowspan="2" class="cabecalho">Área</th>
+            <th scope="col" rowspan="2" class="cabecalho">Disciplinas</th>
+            <th colspan="2" scope="colgroup" class="cabecalho" >Notas</th>
+            <th rowspan="2" scope="rowgroup"class="cabecalho">Média</th>
+
+            <tr>
+                <th scope="rowgroup" class="cabecalho" >Nota 1</th>
+                <th scope="rowgroup" class="cabecalho">Nota 2</th>
+                
+            </tr>
+            
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="colgroup">Exatas</th>
+                <th>Matematica</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+                
+            <tr>
+                <th>Algebra</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+                
+                <tr>
+                <th>Quimica</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <th>Fisica</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" class="Mediae">Media exatas</th>
+                <td>0</td>
+            </tr>
+                
+            <tr>
+                <th rowspan="2" scope="colgroup">Humanas</th>
+                <th>Ciencia</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+                
+            <tr>
+                <th>Historia</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+                
+            <tr>
+                <th colspan="4" class="Mediah">Media Humanas</th>
+                <td>0</td>
+
+            </tr>
+        
+
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
