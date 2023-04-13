@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* CONFIG DEITADO (LANDSCAPE) */
+
+body{
+   background: url(../imagem/cev-landscape.jpg);   
+   background-repeat: no-repeat;
+   background-position: left bottom;
+}
