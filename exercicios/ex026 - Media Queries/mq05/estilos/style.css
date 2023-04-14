@@ -19,8 +19,22 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
+
+i#burguer{
+    background-color: #27426B;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 menu{
-    display:block;
+    display:none;
 }
 
 menu > ul{
@@ -38,7 +52,9 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover{
-    background-color: #27426B ;
+    background-color: white;
+    color: black;
+    cursor: pointer; 
 }
 
 main{
